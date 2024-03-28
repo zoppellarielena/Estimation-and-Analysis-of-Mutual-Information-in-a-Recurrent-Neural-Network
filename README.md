@@ -7,7 +7,7 @@ The dataset employed in this study corresponds to the GO task described by Yang 
 The estimation methods utilized include:
 
 * **Binning Estimator** (discrete), which is able to return satifying results for a sufficiently small number of bins ($nbins = 2$)
-* **Gaussian estimator**, in particular we have adapted the method by Kolchinsky and Tracey[^2] to handle the hidden layer, which can be viewed as homoscedastic mixtures of Gaussians given by $T = h + \epsilon$, where $\epsilon \sim \mathcal{N}(0,\sigma^2 \mathds{1})$.
+* **Gaussian estimator**, in particular we have adapted the method by Kolchinsky and Tracey[^2] to handle the hidden layer, which can be viewed as homoscedastic mixtures of Gaussians given by $T = h + \epsilon$, where $\epsilon \sim \mathcal{N}(0,\sigma^2 \mathbb{1})$.
 * **Kraskov estimator**
 
 Furthermore, we conduct an analysis on the mutual information carried by individual neurons, revealing distinct behaviors among them. Notably, active neurons do not remain active throughout the expected duration; instead, they reach individual peaks at random moments, which vary between neurons.
