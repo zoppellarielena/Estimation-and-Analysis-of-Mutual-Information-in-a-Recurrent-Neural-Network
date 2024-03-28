@@ -14,5 +14,9 @@ Furthermore, we conduct an analysis on the mutual information carried by individ
 
 Lastly, we replicate all experiments on a different network trained to perform the same task using reservoir computing.
 
+This project, developed between January and March 2024 as part of the exam for the *Information Theory and Inference* course at the University of Padova, during the academic year 2023-2024, was undertaken by the team consisting of:
+* Golan Rodrigo
+* Zoppellari Elena
+
 [^1]: Yang, G.R., Joglekar, M.R., Song, H.F. et al. Task representations in neural networks trained to perform many cognitive tasks. Nat Neurosci 22, 297–306 (2019)
 [^2]: https://arxiv.org/abs/1706.02419
